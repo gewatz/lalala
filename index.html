@@ -1,0 +1,45 @@
+<DOCTYPE html>
+<html> 
+    <head>
+        <title>Happy website</title>
+        <link rel="stylesheet" href="style.css">
+
+        <style>
+            img {
+                width: 500px;
+                height: auto;
+            }
+            h1 {color: green}
+            </style>
+
+    </head>
+    <body>
+        <h1>happy please </h1>
+        <p> cutezies </p>
+        <img src=https://static.vecteezy.com/system/resources/previews/000/336/504/original/a-cute-avocado-character-dancing-and-waving-smile-face-vector-flat-illustration.jpg>
+        <blockquote>avacado </blockquote>
+        <button onclick="ChangeQuote()">Change Quote</button>
+        <script>
+            var index = 0;
+
+            function changeQuote() {
+                var quotes = [
+                    '"cat"'
+                    
+
+                ];
+
+                var blockquote = document.querySelector("blockquote");
+                blockquote.innerHTML = quotes[index];
+            
+                indexx++;
+                if (index >=4) {
+                    index = 0;
+                }
+            }
+            
+            
+            
+            </script>
+        </body>
+</html>
